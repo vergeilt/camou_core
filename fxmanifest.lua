@@ -5,6 +5,8 @@ lua54 'yes'
 author 'camou <vergeilt>'
 description 'Modern, minimalistic FiveM framework'
 
+resource_type 'gametype' { name = 'camou' }
+
 client_scripts {
     'client/**/*.lua'
 }
